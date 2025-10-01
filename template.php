@@ -11,21 +11,19 @@
             <h1>My Static Site
             </h1>
             <p class="subtitle">
-                "look, ma, no server"
+                "static site template"
             </p>
         </header>
         <nav>
             <a href="index.html">index</a><br>
             <a href="page1.html">page1</a><br>
             <a href="page2.html">page2</a><br>
-            <a href="page3.html">page3</a><br>
+            <a href="page3.html">page3</a><br>  
         </nav>
         <main>
             <article>
-                <h2><?php echo $page['title']; ?>
-                </h2>
-                <h3><?php echo $page['subtitle']; ?>
-                </h3>
+                <h2><?php echo $page['title']; ?></h2>
+                <h3><?php echo $page['subtitle']; ?></h3>
                 <p>
                     <?php echo $page['content']; ?>
                 </p>
